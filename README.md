@@ -65,7 +65,6 @@ int main(int argc, char*argv[])
              close(fdimg);
          }
          else
-             //send(clnt_sock, webpage, sizeof(webpage), 0);
              write(clnt_sock, webpage, sizeof(webpage)-1);
              puts("closing,,,");
      }
