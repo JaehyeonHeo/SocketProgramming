@@ -1,7 +1,7 @@
 # ✅ Study_SocketProgramming ✅
 
 ```
-<< TCP/IP 소캣 프로그래밍 >>
+## << TCP/IP 소캣 프로그래밍 >>
 
  - 리눅스 기반 webserver를 만들고 이미지 띄우기
 
