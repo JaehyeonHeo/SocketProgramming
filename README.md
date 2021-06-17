@@ -2,7 +2,9 @@
 
 ```
 << TCP/IP 소캣 프로그래밍 >>
- 리눅스 기반 webserver를 만들고 이미지 띄우기
+
+ - 리눅스 기반 webserver를 만들고 이미지 띄우기
+
 ```
 ![SocketProgramming](https://raw.githubusercontent.com/JaehyeonHeo/SocketProgramming/7c0044757a88b916aab45cfb306923a59716dc6d/image/TcpImage.jpg "실행화면")
 
