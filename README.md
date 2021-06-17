@@ -57,9 +57,9 @@ int main(int argc, char*argv[])
 
          if(!strncmp(buf, "GET /game.jpg", 13))  {
              fdimg = open("game.jpg", O_RDONLY);
-             sendfile(clnt_sock, fdimg, NULL, 700000);
+             sendfile(clnt_sock, fdimg, NULL, 700000);  // 이미지 파일의 정보를 웹서버로 전송!!
                  //read-write 함수를 통한 구현부분
-             read(fdimg, img_buf, sizeof(img_buf));
+             read(fdimg, img_buf, sizeof(img_buf));     // 이미지 파일의 정보를 읽는 코드!!
              write(clnt_sock, img_buf, sizeof(img_buf));
 
              close(fdimg);
